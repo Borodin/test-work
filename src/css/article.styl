@@ -1,0 +1,20 @@
+article
+    max-width 400px
+    padding 16px
+    cursor pointer
+
+    .picture
+        position relative
+        background #222
+
+    img
+        width 100%
+        display block
+        transition opacity.2s ease
+
+    &:hover
+        img
+            opacity .6
+
+article:hover .like, .like.liked
+    opacity 1

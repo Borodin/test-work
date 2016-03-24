@@ -1,0 +1,6 @@
+{
+  "name": "test-work",
+  "dependencies": {
+    "angular": "^1.5.2"
+  }
+}

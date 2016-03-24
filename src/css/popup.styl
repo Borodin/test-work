@@ -1,0 +1,47 @@
+.popup
+    top 0
+    right 0
+    bottom 0
+    left 0
+    margin auto
+    width 640px
+    max-width 90%
+    height 90vh
+    background #fff
+    position fixed
+    box-shadow 0 0 0 100vw rgba(0, 0, 0, .5)
+    display none
+    z-index 2
+
+    &.open
+        display block
+
+    .content
+        overflow-y scroll
+        height 100%
+
+    .description
+        padding 32px
+
+    img
+        display block
+        width 100%
+
+    .picture
+        position relative
+        .like
+            opacity 1
+            left 32px
+            bottom 18px
+
+    .close
+        width 24px
+        height 24px
+        background url(../img/icon/cancel.svg) white
+        border-radius 100%
+
+        right -12px
+        top -12px
+        position absolute
+        cursor pointer
+        z-index 3

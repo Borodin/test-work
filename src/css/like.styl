@@ -1,0 +1,21 @@
+$favorite-color = #FF2000
+
+.like
+    position absolute
+    bottom 12px
+    left 12px
+    background #fff
+    transition background.2s ease
+    width 24px
+    height 24px
+    cursor pointer
+    mask-repeat no-repeat
+    mask-image url(../img/icon/favorite_border.svg)
+    transition opacity.2s ease
+    opacity 0
+
+    &.liked
+        background $favorite-color
+        mask-image url(../img/icon/favorite.svg)
+    &:hover
+        background $favorite-color
